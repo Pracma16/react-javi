@@ -1,4 +1,5 @@
 import { Link, Outlet } from 'react-router-dom';
+import Componente from './components/Componente';
 
 function App() {
   
@@ -11,6 +12,9 @@ function App() {
         </nav>
       </div>
       <Outlet />
+      <section>
+        <Componente  msg="Este es el primer componente"/>
+      </section>   
     </main>
   )
 } 
